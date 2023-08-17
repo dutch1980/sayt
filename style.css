@@ -191,7 +191,8 @@ border: 2px solid white;
    }
  
    
-.cartproduct  {
+   .product___add  {
+    display: none;
    
     
     margin-top: 3px;
@@ -225,8 +226,8 @@ line-height: normal;
      
 }
 
-.product___add.cartproduct:hover{
-    visibility:hidden;
+.product___add:hover{
+    display: block;
  
   }
     
