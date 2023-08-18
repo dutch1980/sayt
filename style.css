@@ -147,11 +147,13 @@ background-color: #ffffff;
     position: relative; 
     z-index: 1;
     
+    
 }
 
 
 
 .product___add  {
+    display: none;
     
     
    
@@ -180,6 +182,17 @@ border: 2px solid white;
 
 
 }
+.product___add{
+    opacity: 0;
+}
+
+
+.product___add:hover::before{
+    
+    opacity: 1;
+}
+
+
 .product_picher{
     width: 100%;
 }
