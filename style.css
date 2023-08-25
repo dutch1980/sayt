@@ -178,6 +178,7 @@ margin-bottom: 60px;
 
 .block-container{
     
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -221,6 +222,24 @@ margin-bottom: 60px;
     
     
 
+}
+.mango{
+    display: flex;
+width: 157px;
+height: 11px;
+color: #222222;
+font-family: Lato;
+font-size: 13px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
 }
 .product___add:hover{
     opacity: 1;
