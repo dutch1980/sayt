@@ -217,8 +217,10 @@ margin-bottom: 60px;
     align-items: center;
     opacity: 0;
     transform: 3s;
-    
-    
+    /* Style for "Background" */
+width: 263px;
+height: 281px;
+text-decoration: none;
 
 }
 
@@ -228,7 +230,7 @@ margin-bottom: 60px;
     opacity: 1;
 }
 .mango{
-    
+    margin-top: 19px;
 width: 157px;
 height: 11px;
 color: #222222;
@@ -240,7 +242,7 @@ letter-spacing: normal;
 line-height: normal;
 text-align: center;
 text-transform: uppercase;
-
+text-decoration: none;
 font-style: normal;
 letter-spacing: normal;
 line-height: normal;
@@ -349,14 +351,53 @@ line-height: normal;
 }
 
 .button_red {
+    position: relative;
     width: 212px;
     height: 48px;
     background-color: #f16d7f;
     border: none;
 
+/* Style for "Browse All" */
+
+color: #ffffff;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: 54px;
+text-align: center;
+/* Text style for "B, rowse A" */
+font-style: normal;
+letter-spacing: 0.4px;
+line-height: normal;
+padding: 18 43 19 20;
     
 
 }   
+.gg-arrow-right{
+    /* Style for "" */
+width: 15px;
+height: 7px;
+color: #ffffff;
+font-family: "Font Awesome";
+font-size: 15px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: normal;
+line-height: 54px;
+text-align: left;
+/* Text style for "" */
+font-style: normal;
+letter-spacing: 0.38px;
+line-height: normal;
+position: absolute;
+top: 28px;
+left:190px;
+bottom: 20px;
+right: 19px;
+
+}
 .Browse{
     width: 145px;
 height: 11px;
@@ -373,6 +414,7 @@ letter-spacing: 0.4px;
 line-height: normal;
 padding-left: 23px;
 padding-bottom: 18px;
+
 } 
 
 
@@ -398,6 +440,7 @@ a{
     width: 1140px;
     height: 529px;
     background-color: #222224;
+    position: relative;
 }
 .banner{
     width: 767px;
@@ -439,5 +482,90 @@ padding-left: 39px;
     margin-left: 229px;
     margin-right: 231px;
 }
+ .tract{
+   position: absolute;
+   top: 48px;
+   bottom: 879px;
+   left: 803px;
+   right: 43px;
+ }
+ .Free{
+    /* Style for "Free Deliv" */
 
+color: #fbfbfb;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "Free Deliv" */
+font-style: normal;
+letter-spacing: 0.5px;
+line-height: normal;
+
+ }
+ .delivery{
+    /* Style for "Worldwide" */
+
+color: #fbfbfb;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "W, orldwid" */
+font-style: normal;
+letter-spacing: 0.35px;
+line-height: normal;
+ }
+ 
+ .Free1{
+    position: absolute;
+    top: 5px;
+    left: 75px;
+ }
+ .Sales1{
+    /* Style for "Sales & di" */
+
+color: #fbfbfb;
+font-family: Lato;
+font-size: 20px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "Sales & di" */
+font-style: normal;
+letter-spacing: 0.5px;
+line-height: normal;
+ }
+ .Worldwide{
+    /* Style for "Worldwide" */
+
+color: #fbfbfb;
+font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 24px;
+text-align: left;
+/* Text style for "W, orldwid" */
+font-style: normal;
+letter-spacing: 0.35px;
+line-height: normal;
+ }
+ .Sales{
+    position: absolute;
+    top: 175px;
+ }
+ .discounts{
+    position: absolute;
+    left: 10px;
+ }
 
