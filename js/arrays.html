@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /* let groceries=["Milk","Eggs","Frosted Flakes","Salami","Juice"];
+        groceries.push("Cookies");
+        groceries.unshift("Bananans");
+        let resulutIndex=groceries.indexOf("Eggs",0);
+        
+        console.log(groceries.length);
+        console.log(groceries);
+        
+        for(let i=0; i<groceries.length;i++){
+             let item = groceries[i];
+        console.log(item);
+        }*/
+        let good =["Mario","luigi","Kirby","Yoshi"];
+        let bad = ["Broser","Koopa Troopa","Goomba"];
+        let goodandbad = good.concat(bad);
+        console.log(goodandbad);
+        
+        const student = {
+
+    // свойство-данные
+    firstName: 'Маша',
+    
+    // свойство-аксессор (геттер)
+    get getName() {
+        return this.firstName;
+    }
+};
+
+// доступ к свойству-данным
+console.log(student.firstName); // Вывод: Маша
+
+// доступ к свойству-аксессору
+console.log(student.getName); // Вывод: Маша
+
+// если попытаемся вызвать геттер как метод — получим ошибку
+//console.log(student.getName()); // здесь будет ошибка
+//В этом примере создан геттер getName(). Он позволяет получить доступ к свойству-данным firstName.
+
+
+    </script>
+</body>
+</html>
