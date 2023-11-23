@@ -6,23 +6,84 @@
 </head>
 <body>
    <script>
-       let safeProceed= false;
-       if(safeProceed){
-           alert("You shall pass");
-       }else{
-           alert("You shall not pass");
+       /*
+      let myVariable = false;
+       console.log(myVariable);
+       if (myVariable==true){
+           console.log('это правда');
        }
-        let speedLimit = 55;
-       function amIspeeng(speed){
-           if (speed>=speedLimit){
-               alert("Yes. You are speeding.")
-           }else{
-               alert("No. You are not speeding.What's wrong with you?")
-           }
+       
+       else{
+           console.log('это ложь');
        }
-       amIspeeng(53);
-       amIspeeng(72);
+       let age = prompt('введите возраст');
+       
+       let message;
+       if(age>=21){
           
+           message='разрещить вход в заведение и покупку алькаголя';
+       }else if(age>=19){
+          
+           message='разрешить вход в заведение запрет на покупку алькаголя';
+       
+       }else{
+           
+           message='запрет на вход';
+       }
+       console.log(message);
+       let id=prompt('введите возраст');
+       let meesage = id<18?console.log('denied'): console.log('allowed');
+       */
+       /*
+       let randomNumber = Math.random();
+       randomNumber=randomNumber*10;
+       randomNumber=Math.floor(randomNumber);
+       switch(randomNumber){
+           case 1:
+               console.log('надо побегать');
+               break;
+           case 2:
+               console.log('надо посидеть');
+               break;
+           case 3:
+               console.log('надо попряыгать');
+               break;
+               case4:
+               console.log('надо полежать');
+               break;
+           case 5:
+               console.log('надо поспать');
+               break;
+               case6:
+               console.log('надо отдахнуть');
+               break;
+           case 7:
+               console.log('надо работать');
+               break;
+           case 8:
+               console.log('надо подумать');
+               break;
+           case 9:
+               console.log('надо попечатать');
+               break;
+               case10:
+               console.log('надо заниматься');
+               break;
+           default:
+               console.log('будущее не определено');
+               break;
+       }
+       */
+    const myTable =[];
+    const value = 10;
+       for (let i=0; i<value;i++){
+           const temt =[];
+           for (let j= 0; j<value; j++){
+               temt.push(i*j);
+           }
+           myTable.push(temt);
+       }
+       console.table(myTable);
     </script>
     
 </body>

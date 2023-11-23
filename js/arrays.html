@@ -6,45 +6,76 @@
 </head>
 <body>
     <script>
-       /* let groceries=["Milk","Eggs","Frosted Flakes","Salami","Juice"];
-        groceries.push("Cookies");
-        groceries.unshift("Bananans");
-        let resulutIndex=groceries.indexOf("Eggs",0);
+   /*   
+let arrOfShapes = ["circle", "triangle", "rectangle", "pentagon"];
+        console.log(arrOfShapes);
+arrOfShapes.splice(2, 2, "square", "trapezoid");
+console.log(arrOfShapes);
+        let arr5=[1,2,3];
+        let arr6 =[4,5,6];
+        let arr7 =arr5.concat(arr6);
+        console.log(arr7);
+        let arr8 = arr7.concat(7,8,9);
+        console.log(arr8);
+        arr8.pop();
+        console.log(arr8);
+        arr8.shift();
+       arr8.splice(1, 3);
+        console.log(arr8);
+        let findValue = arr8.find(function(e){return e===6});
+        let findValue2 = arr8.find(e => e === 10);
+        let findIndex = arr8.indexOf(6);
+let findIndex2 = arr8.indexOf(10);
+console.log(findIndex, findIndex2);*/
+       /* let arrOfArrays = [];
+for (let i = 0; i < 3; i++){
+arrOfArrays.push([]);
+for (let j = 0; j < 7; j++) {
+arrOfArrays[i].push(j);
+}
+}
+        console.log(arrOfArrays);*/
+      /* const myTable=[];
+        const rows =10;
+        const cols = 10;
+        let counter = 0;
+        for(let i=0;i<rows;i++){
+            let TempTable =[];
+            for(let j=0; j<cols; j++){
+                counter++;
+                TempTable.push(counter);
+                
+            }
+            myTable.push(TempTable);
+        }
+        console.table(myTable);
+        const grid =[];
+        const cells=64;
+        let counter=0;
+        let row ;
+        for(let i=0; i<cells+1; i++){
+            if(counter%8==0){
+                if(row!= undefined){
+                    grid.push(row);
+                }
+                row=[];
+            }
+            counter++;
+            let temp= counter;
+            row.push(temp);
+        }
+        console.table(grid);*/
         
-        console.log(groceries.length);
-        console.log(groceries);
-        
-        for(let i=0; i<groceries.length;i++){
-             let item = groceries[i];
-        console.log(item);
-        }*/
-        let good =["Mario","luigi","Kirby","Yoshi"];
-        let bad = ["Broser","Koopa Troopa","Goomba"];
-        let goodandbad = good.concat(bad);
-        console.log(goodandbad);
-        
-        const student = {
-
-    // свойство-данные
-    firstName: 'Маша',
-    
-    // свойство-аксессор (геттер)
-    get getName() {
-        return this.firstName;
-    }
-};
-
-// доступ к свойству-данным
-console.log(student.firstName); // Вывод: Маша
-
-// доступ к свойству-аксессору
-console.log(student.getName); // Вывод: Маша
-
-// если попытаемся вызвать геттер как метод — получим ошибку
-//console.log(student.getName()); // здесь будет ошибка
-//В этом примере создан геттер getName(). Он позволяет получить доступ к свойству-данным firstName.
-
-
+        const table=[];
+        for(let i=0; i<10; i++){
+            table.push(i+1);
+        }
+        for(let i =0; i<table.length; i++){
+            console.log(table[i]);
+        }
+        for(let vale of table){
+            console.log(vale);
+        }
     </script>
 </body>
 </html>

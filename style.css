@@ -210,9 +210,9 @@ margin-bottom: 60px;
     left: 0;
     bottom: 0;
     background: rgba(14, 9, 9, 0.5);
-    margin-bottom: 60px;
+    margin-bottom: 70px;
    
-    border: 2px outset white;
+    
     color: white;
     display: flex;
     justify-content: center;
@@ -225,12 +225,30 @@ height: 281px;
 text-decoration: none;
 
 }
-.AddtoCart{
-    /* Style for "Rounded Re" */
-width: 123px;
-height: 39px;
+
+.Add{
+
+    outline: 1px solid white;
+    width: 126px;
+    height: 39px;
+    padding-top: 10px;
+    
+   display: flex;
+    /* Style for "Add to Car" */
 
 
+font-family: Lato;
+font-size: 13px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+text-align: left;
+/* Text style for "Add to Car" */
+font-style: normal;
+letter-spacing: normal;
+line-height: normal;
+    
 }
 
 
@@ -238,7 +256,8 @@ height: 39px;
     opacity: 1;
 }
 .gg-shopping-cart{
-    margin: 3px;
+   margin: 10px;
+ margin-top: -5px;
     
 }
 .mango{
