@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cycles</title>
+</head>
+<body>
+   <script>
+       "use strict";
+       
+     /*  const max = 5;
+       const ranNumber=Math.floor(Math.random()*max)+1;
+       console.log(ranNumber);
+       let correct =false;
+       while(!correct){
+           let gusses= prompt(" введите число 1- " + max);
+           gusses=Number(gusses);
+           if(gusses===ranNumber){
+               correct=true;
+               console.log("попал"+ranNumber);
+
+           }else if(gusses>ranNumber){
+               console.log("слишком высоко");
+           }else{
+               console.log("сльшком низко");
+               
+           }
+           
+       }
+       let counter=0;
+       
+       let step =5;
+       do{
+           console.log(counter);
+           counter+=step;
+       }
+       while(counter<=100);*/
+       const myWork=[];
+       for(let i=0;i<10;i++){
+           let stat = i%2?true:false;
+           let temp={
+               name:`lesson${i}`, status:stat
+           };
+           myWork.push(temp);
+       }
+       console.log(myWork);
+    </script>
+    
+</body>
+</html>

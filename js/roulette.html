@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>roulette</title>
+</head>
+<body>
+   <script>
+       "use strict";
+       let userNumber = prompt("Ведите число");
+       userNumber=Number(userNumber);
+       let num=100;
+       let messege ="Ничего";
+       if(num > userNumber){
+           messege=userNumber+"был больше, чем"+num;
+           
+       }else if(num === userNumber){
+           messege=userNumber+" был равен "+num;
+       }else{
+           messege = userNumber+" меньше чем "+num;
+       }
+       console.log(messege);
+      
+    </script>
+    
+</body>
+</html>

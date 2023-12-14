@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       "use strict";
+       const people ={friends:[]};
+       let friend1 ={first:"vova",last:"zacusilov",id:5};
+       let friend2 ={first:"jeny",last:"chernov",id:7};
+       let friend3 = {first:"iduard", last:"petrov",id:8};
+       people.friends.push(friend1,friend2,friend3);
+       console.log(people);
+       const theList = ['Laurence', 'Svekis', true, 35, null, undefined,
+       {test: 'one', score: 55}, ['one', 'two']];
+       theList.pop();
+theList.shift();
+theList.unshift("FIRST");
+console.log(theList);
+       theList[3]="hello World";
+       theList[2]="MIDDLE";
+       theList.push("LAST");
+       theList.splice(4,3);
+       console.log(theList);
+       const inventory =[];
+       const item3 ={
+           name:"computer",
+           model:"imack",
+           cost:1000,
+           quantities:10,
+           
+       }
+       const item2={
+          name:"phone",
+           model:"android",
+           cost:10000,
+           quantities:100, 
+       }
+       const item1={
+           name:"tablet",
+           model:"ipad",
+           cost:650,
+           quantities:1,
+       }
+       inventory.push(item1,item2,item3);
+       console.log(inventory);
+       console.log(inventory[2].quantities);
+       
+    </script>
+    
+</body>
+</html>

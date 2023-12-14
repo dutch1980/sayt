@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       /* function folding(a,b){
+            return a+b;
+        }
+        let val =30;
+        let val1=40;
+        console.log(folding(val,val1));
+        console.log(folding(100,30));
+        
+        const arr=["вова","толик","женя","миша"];
+       function myFun (){
+            const question=prompt("Как тебя зовут");
+            const nameAdj=Math.floor(Math.random()*arr.length);
+            console.log(arr[nameAdj]+" "+question);
+        }
+        myFun();
+        const val1=50;
+        const val2=100;
+        let operant ="+";
+        function cal(a,b,op){
+            if(op=="-"){
+                return(a - b);
+            }else{
+                return(a + b);
+            }
+        }
+        cal(val1,val2,operant);*/
+        
+        const myArr=[];
+        for(let i=0; i<10;i++){
+            let val1=i*5;
+            let val2=i*i;
+            let res= cal(val1,val2,"+");
+            myArr.push(res);
+        }
+        console.log(myArr);
+        
+        function cal(a,b,op){
+            if(op=="-"){
+                return(a - b);
+            }else{
+                return(a + b);
+            }
+        }
+    </script>
+</body>
+</html>

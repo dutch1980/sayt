@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+        "use strict";
+       class Person{
+           constructor(firstname,lastname){
+               this.firstname=firstname;
+               this.lastname=lastname;
+              }
+           fullname(){
+              return this.firstname+" "+this.lastname;
+           }
+       }
+      let  p=new Person("oleg","zakiyanc");
+       console.log(p.fullname());
+       
+       let frend1=new Person("jeny","chernov");
+        console.log(frend1.fullname());
+       console.log("hello "+frend1.lastname);
+      
+       let frend= new Person("vova","zacusilov")
+       console.log(frend.fullname());
+       console.log("hello "+frend.firstname);
+    </script>
+    
+</body>
+</html>

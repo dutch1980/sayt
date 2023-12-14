@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       
+       /*let val = "1000";
+       (function(){
+           let val= "100";
+           console.log(val);
+       })();
+       let resulut =(function(){
+           let val = "oleg";
+           return val;
+       })();
+       console.log(resulut);
+       console.log(val);
+       (function(val){
+           console.log(`my name is  ${val}`);
+       })("tony");*/
+      function calcFactorial(nr){
+          console.log(nr);
+          if(nr===0){
+              return 1;
+          }else{
+              return nr*calcFactorial(--nr);
+          }
+      }
+       console.log(calcFactorial(5));
+    </script>
+    
+</body>
+</html>

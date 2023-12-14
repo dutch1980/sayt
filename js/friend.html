@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>friend</title>
+</head>
+<body>
+   <script>
+       "use strict";
+       /*let user = prompt("Ведите свое имя");
+       let message;
+       switch(user){
+           case "вова":
+           case "женя":
+           case "дима":
+           case "руслан":
+           case  "максим":
+           case "мансур":
+               message= user+" то мой друг ";
+               break;
+           default:
+               message= user+" это не мой друг ";
+               
+               
+       }
+       console.log(message);*/
+       
+       const myArr=["Rock","Paper","Scissors"];
+       let player = Math.floor(Math.random()*3);
+       let computer = Math.floor(Math.random()*3);
+       let message = " player "+myArr[player]+" vs computer "+ myArr[computer]+" ";
+       if (player===computer){
+           message+="it's a tie";
+       }else if (player>computer){
+           if(computer== 0&& player== 2){
+               message+=" computer win ";
+           }else{
+               message+="plaer win ";
+           }
+       }else{
+           if(computer ==2 && player==0){
+               message+=" player win ";
+           }else{
+           message+=" computer win ";
+       }
+       }
+       console.log(message);
+       
+    </script>
+    
+</body>
+</html>

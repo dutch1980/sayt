@@ -5,7 +5,7 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
+    <script>/*
          let color = "green";
        switch(color){
            case "yelloy":
@@ -28,7 +28,59 @@
                break;
        }
         document.write("Show this on screen");
-        for(i)
+        
+        let randomNumber = Math.random();
+        randomNumber=randomNumber*6;
+        randomNumber=Math.floor(randomNumber);
+        let answer="Что-то пошло не так";
+        let question = prompt("Спрашивай о чем угодно");
+        switch(randomNumber){
+                case 0:
+                answer="Это сработает";
+                break;
+                case 1:
+                answer="Может быть, может быть, нет";
+                break;
+                 case 2:
+                answer="Возможно нет";
+                break;
+            case 3:
+                answer="Очень вероятно";
+            case 4:
+                answer="возможно";
+                break;
+            default:
+                answer="Я не знаю об этом";
+                
+        }
+        let outpot = "Вы спрашивали меня "+question+" я думаю что "+answer;
+        console.log(outpot);*/
+        let prize=prompt("Введите число 0-10");
+        prize=Number(prize);
+        let ouput = "My Selection: ";
+        switch(prize){
+            case 0:
+                ouput+="gold";
+            case 1:
+                ouput += "selver";
+                break;
+            case 2:
+                ouput+="wooden";
+            case 3:
+                ouput+="tin";
+                break;
+            case 4:
+                ouput+="Big";
+                case 5:
+                ouput+="smoll";
+                break;
+            default:
+                ouput+="Sorry Try Again";
+        }
+        console.log(ouput);
+        
+        
+        
     </script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       "use strict";
+       const myCarr ={
+           manufacturer:"bmv",
+           model:"V8",
+           color:"black",
+           tires:4,
+           doors:4,
+           forsale:false
+           
+       }
+       let propClor="color";
+       myCarr[propClor]="red"
+       console.log(myCarr);
+       propClor="forsale";
+       myCarr[propClor]="carForSale";
+       console.log(myCarr.manufacturer+""+myCarr.model);
+       console.log(myCarr.forsale);
+    </script>
+    
+</body>
+</html>
